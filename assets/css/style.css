@@ -1,0 +1,165 @@
+body {
+  font-size: 12px;
+  font-family: 'Lato', sans-serif; }
+
+.wrapper {
+  width: 960px;
+  margin: 0 auto; }
+
+.header {
+  width: 100%;
+  margin: 0 auto;
+  background-color: #2c3e50; }
+  .header .header-menu {
+    padding: 30px 0;
+    height: 30px; }
+    .header .header-menu h1 {
+      color: #fff;
+      font-size: 24px;
+      text-transform: uppercase;
+      margin: 0;
+      float: left; }
+    .header .header-menu nav {
+      float: right; }
+      .header .header-menu nav ul {
+        list-style: none; }
+        .header .header-menu nav ul li {
+          float: left; }
+          .header .header-menu nav ul li a {
+            padding: 15px;
+            color: #fff;
+            text-decoration: none;
+            text-transform: uppercase;
+            font-weight: bold; }
+          .header .header-menu nav ul li:hover {
+            text-decoration: underline; }
+
+.separador {
+  width: 240px;
+  position: absolute;
+  padding: 0 38%;
+  display: inline-block; }
+  .separador .separador-line {
+    height: 4px;
+    width: 100px;
+    margin: 12px 5px;
+    float: left; }
+  .separador .ion-star {
+    font-size: 22px;
+    float: left; }
+
+.color_azul {
+  color: #2c3e50; }
+
+.color_blanco {
+  color: #fff; }
+
+.color_bg_blanco {
+  background-color: #fff; }
+
+.color_bg_azul {
+  background-color: #2c3e50; }
+
+.encabezados {
+  margin: 60px 0 0 0;
+  position: relative;
+  height: 70px;
+  display: inline-block;
+  width: 960px; }
+  .encabezados h3 {
+    text-align: center;
+    text-transform: uppercase;
+    font-size: 30px;
+    margin: 0; }
+
+.info {
+  background: #18bc9c; }
+  .info .info-profesion {
+    padding: 90px 245px;
+    width: 470px; }
+    .info .info-profesion .separador {
+      padding: 0 9%; }
+    .info .info-profesion img {
+      padding: 0 107px; }
+    .info .info-profesion h2 {
+      font-size: 50px;
+      text-transform: uppercase;
+      color: #fff;
+      text-align: center;
+      margin-bottom: 10px; }
+    .info .info-profesion p {
+      font-size: 14px;
+      color: #fff;
+      text-align: center;
+      margin-top: 50px; }
+
+.portfolio .portfolio-work {
+  list-style: none;
+  margin: 0;
+  padding: 0;
+  display: inline-block;
+  margin-bottom: 40px; }
+  .portfolio .portfolio-work li {
+    float: left;
+    width: 31.25%;
+    margin-right: 30px;
+    margin-bottom: 30px; }
+    .portfolio .portfolio-work li.last {
+      margin-right: 0px; }
+    .portfolio .portfolio-work li img {
+      width: 100%; }
+
+.about {
+  background-color: #18bc9c; }
+  .about .parrafos {
+    display: inline-block;
+    margin: 0 100px 40px 100px;
+    text-align: center; }
+    .about .parrafos p {
+      width: 46%;
+      float: left;
+      padding-left: 25px;
+      color: #fff;
+      text-align: left; }
+    .about .parrafos a {
+      border: 1px solid #fff;
+      border-radius: 5px;
+      padding: 10px 15px;
+      text-align: center;
+      color: #fff;
+      text-decoration: none;
+      margin-top: 15px;
+      display: inline-block; }
+
+.footer {
+  background-color: #2c3e50;
+  height: 160px; }
+  .footer article {
+    width: 27%;
+    padding: 25px;
+    display: inline-block;
+    color: #fff;
+    text-align: center; }
+    .footer article h3 {
+      text-transform: uppercase;
+      margin-bottom: 15px; }
+    .footer article span {
+      border-radius: 50%;
+      border: 1px solid #fff;
+      padding: 10px;
+      width: 25px;
+      display: inline-block;
+      font-size: 20px;
+      margin-right: 2px;
+      margin-top: 8px; }
+    .footer article a {
+      color: #18bc9c; }
+
+.copy {
+  background-color: #233140;
+  display: inline-block;
+  width: 100%;
+  text-align: center;
+  color: #fff; }
+
+/*# sourceMappingURL=style.css.map */
