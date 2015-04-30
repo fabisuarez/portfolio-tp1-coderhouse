@@ -3,7 +3,8 @@ body {
   font-family: 'Lato', sans-serif; }
 
 .wrapper {
-  width: 960px;
+  width: 100%;
+  max-width: 960px;
   margin: 0 auto; }
 
 .header {
@@ -11,8 +12,7 @@ body {
   margin: 0 auto;
   background-color: #2c3e50; }
   .header .header-menu {
-    padding: 30px 0;
-    height: 30px; }
+    padding: 30px 0; }
     .header .header-menu h1 {
       color: #fff;
       font-size: 24px;
@@ -22,7 +22,10 @@ body {
     .header .header-menu nav {
       float: right; }
       .header .header-menu nav ul {
-        list-style: none; }
+        list-style: none;
+        display: block;
+        margin: 0;
+        padding: 0; }
         .header .header-menu nav ul li {
           float: left; }
           .header .header-menu nav ul li a {
@@ -132,8 +135,7 @@ body {
       display: inline-block; }
 
 .footer {
-  background-color: #2c3e50;
-  height: 160px; }
+  background-color: #2c3e50; }
   .footer article {
     width: 27%;
     padding: 25px;
@@ -161,5 +163,84 @@ body {
   width: 100%;
   text-align: center;
   color: #fff; }
+
+@media screen and (max-width: 320px) {
+  .separador {
+    padding: 0;
+    position: static; }
+
+  .header .header-menu {
+    padding: 0;
+    text-align: center; }
+    .header .header-menu h1 {
+      float: none;
+      padding: 15px;
+      border-bottom: 1px solid #fff; }
+    .header .header-menu nav {
+      float: none;
+      display: inline-block; }
+      .header .header-menu nav ul li a {
+        display: block; }
+
+  .encabezados {
+    width: 100%; }
+    .encabezados h3 {
+      text-align: center;
+      text-transform: uppercase;
+      font-size: 30px;
+      margin: 0; }
+
+  .info {
+    text-align: center; }
+    .info .info-profesion {
+      padding: 20px 0;
+      width: 100%;
+      display: inline-block; }
+      .info .info-profesion .separador {
+        position: static;
+        display: inline-block; }
+      .info .info-profesion img {
+        padding: 0; }
+      .info .info-profesion h2 {
+        font-size: 25px; }
+      .info .info-profesion p {
+        margin-top: 10px; }
+
+  .portfolio {
+    text-align: center; }
+    .portfolio .portfolio-work {
+      list-style: none;
+      margin: 0;
+      padding: 0;
+      display: inline-block;
+      margin-bottom: 40px; }
+      .portfolio .portfolio-work li {
+        display: inline-block;
+        width: 96%;
+        margin: 5px; }
+
+  .about {
+    text-align: center;
+    padding-bottom: 35px; }
+    .about .parrafos {
+      margin: 0; }
+      .about .parrafos p {
+        width: 100%;
+        padding: 10px 25px 0 25px;
+        box-sizing: border-box; }
+      .about .parrafos a {
+        width: 50%; }
+
+  .footer {
+    padding-bottom: 35px; }
+    .footer article {
+      width: 100%;
+      box-sizing: border-box;
+      padding-bottom: 0; }
+      .footer article span {
+        width: 18px;
+        margin-right: 5px;
+        padding: 5px;
+        font-size: 15px; } }
 
 /*# sourceMappingURL=style.css.map */

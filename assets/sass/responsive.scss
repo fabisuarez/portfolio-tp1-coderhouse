@@ -1,0 +1,104 @@
+@media screen and (max-width: 320px){
+	.separador {
+		padding: 0;
+		position: static;
+	}
+	.header{
+	    .header-menu{
+	        padding: 0;
+	        text-align: center;
+	        h1{
+	              float: none;
+	              padding: 15px;
+	              border-bottom: 1px solid #fff;
+	        }
+	        nav{
+	            float: none;
+				display: inline-block;
+	            ul{
+	                li{
+	                    a{
+	                        display: block;
+	                    }
+	                }
+	            }
+	        }
+	    }
+	}
+	.encabezados{
+	    width: 100%;
+	    h3{
+	        text-align: center;
+	        text-transform: uppercase;
+	        font-size: 30px;
+	        margin: 0;
+	    }
+	}
+	.info{
+		text-align: center;
+	    .info-profesion{
+	        padding: 20px 0;
+			width: 100%;
+			display: inline-block;
+	        .separador{
+	            position: static;
+				display: inline-block;
+	        }
+	        img{
+	            padding: 0;
+	        }
+	        h2{
+	            font-size: 25px;
+	        }
+	        p{
+	            margin-top: 10px;
+	        }
+	    }
+	}
+	.portfolio{
+		text-align: center;
+	    .portfolio-work{
+	        list-style: none;
+	        margin: 0;
+	        padding: 0;
+	        display: inline-block;
+	        margin-bottom: 40px;
+	        li{
+	            display: inline-block;
+				width: 96%;
+				margin: 5px;
+	        }
+	    }
+	}
+
+	.about{
+		text-align: center;
+		padding-bottom: 35px;	
+	    .parrafos{
+	        margin: 0;
+	        p{
+		        width: 100%;
+				padding: 10px 25px 0 25px;
+				box-sizing: border-box;
+	        }
+	        a{
+	            width: 50%;
+	        }
+	    }
+	}
+
+	.footer{
+		padding-bottom: 35px;
+	    article{
+			width: 100%;
+			box-sizing: border-box;
+			padding-bottom: 0;
+	        span{
+	            width: 18px;
+	            margin-right: 5px;
+	            padding: 5px;
+	            font-size: 15px;
+	        }
+	    }
+	}
+}
