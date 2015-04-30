@@ -13,7 +13,9 @@ body{
     margin: 0 auto;
     background-color: $color_azul;
     .header-menu{
-        padding: 30px 0;
+        padding: 15px 10px;
+        display: block;
+        overflow: hidden;
         h1{
               color: #fff;
               font-size: 24px;
@@ -36,6 +38,7 @@ body{
                         text-decoration: none;
                         text-transform: uppercase;
                         font-weight: bold;
+                        display: block;
                     }
                     &:hover{
                         text-decoration: underline;
@@ -47,9 +50,6 @@ body{
 }
 
 .separador{
-    width: 240px;
-    position: absolute;
-    padding: 0 38%;
     display: inline-block;
     .separador-line{
         height: 4px;
@@ -81,7 +81,8 @@ body{
     position: relative;
     height: 70px;
     display: inline-block;
-    width: 960px;
+    max-width: 960px;
+    width: 100%;
     h3{
         text-align: center;
         text-transform: uppercase;
@@ -92,9 +93,10 @@ body{
 
 .info{
     background: $color_verde;
+    text-align: center;
     .info-profesion{
-        padding: 90px 245px;
-        width: 470px;
+        display: inline-block;
+        margin: 10.6em 0;
         .separador{
             padding: 0 9%;
         }
@@ -118,17 +120,18 @@ body{
 }
 
 .portfolio{
+    text-align: center;    
     .portfolio-work{
         list-style: none;
         margin: 0;
         padding: 0;
         display: inline-block;
         margin-bottom: 40px;
+        text-align: center;
         li{
-            float: left;
-            width: 31.25%;
-            margin-right: 30px;
-            margin-bottom: 30px;
+            width: 29.6%;
+            margin: 0.9em;
+            display: inline-block;
             &.last{
                 margin-right: 0px;
             }
@@ -141,16 +144,16 @@ body{
 
 .about{
     background-color: $color_verde;
+    text-align: center;
+    padding-bottom: 60px;
     .parrafos{
         display: inline-block;
-        margin: 0 100px 40px 100px;
-        text-align: center;
         p{
-        width: 46%;
-        float: left;
-        padding-left: 25px;
-        color: #fff;
-        text-align: left;
+            width: 45%;
+            float: left;
+            padding-left: 25px;
+            color: #fff;
+            text-align: left;
         }
         a{
             border: 1px solid #fff;
