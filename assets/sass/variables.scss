@@ -5,3 +5,8 @@ $color_bg_azul: #2c3e50;
 $color_azul_oscuro: #233140;
 $color_bg_azul_oscuro: #233140;
 $color_verde: #18bc9c;
+
+$phone: "(max-width: 320px)";
+$phone-tablet: "(min-width: 321px) and (max-width: 767px)";
+$tablet: "(min-width: 768px) and (max-width: 1023px)";
+$desktop: "(min-width: 1024px)";

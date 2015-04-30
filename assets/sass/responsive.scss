@@ -1,4 +1,4 @@
-@media screen and (max-width: 430px){
+@media screen and #{$phone-tablet} {
 	.separador {
 		padding: 0;
 		position: static;
@@ -73,7 +73,7 @@
 
 	.about{
 		text-align: center;
-		padding-bottom: 35px;	
+		padding-bottom: 35px;
 	    .parrafos{
 	        margin: 0;
 	        p{

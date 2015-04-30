@@ -168,7 +168,7 @@ body {
   text-align: center;
   color: #fff; }
 
-@media screen and (max-width: 430px) {
+@media screen and (min-width: 321px) and (max-width: 767px) {
   .separador {
     padding: 0;
     position: static; }
